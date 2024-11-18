@@ -101,20 +101,6 @@ The form also dynamically populates the category options by fetching them from t
 
 </SwmSnippet>
 
-<SwmSnippet path="/src/main/webapp/admin.jsp" line="90">
-
----
-
-Finally, the form includes buttons to submit the data or close the modal.
-
-```
-		</form>
-```
-
----
-
-</SwmSnippet>
-
 # Processing form data in the servlet
 
 <SwmSnippet path="/src/main/java/com/ecommerce/servlets/ProductOperationServlet_copy.java" line="66">
@@ -273,4 +259,4 @@ public void saveProduct(Products product)
 
 This flow ensures that all necessary product details are collected, validated, and stored correctly.
 
-<SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBZWNvbW1lcmNlLXdlYmFwcC1oaWJlcm5hdGUtc2VydmxldCUzQSUzQVN3aW1tLURlbW8=" repo-name="ecommerce-webapp-hibernate-servlet"><sup>Powered by [Swimm](https://staging.swimm.cloud/)</sup></SwmMeta>
+<SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBZWNvbW1lcmNlLXdlYmFwcC1oaWJlcm5hdGUtc2VydmxldCUzQSUzQVN3aW1tLURlbW8=" repo-name="ecommerce-webapp-hibernate-servlet"><sup>Powered by [Swimm](https://app.swimm.io/)</sup></SwmMeta>
